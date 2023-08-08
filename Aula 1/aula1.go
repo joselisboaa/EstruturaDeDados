@@ -3,37 +3,37 @@ package main
 import "fmt"
 
 func main() {
-    descRecursiveCounter(4)
-    fmt.Println("\n")
-    ascRecursiveCounter(0, 10)
-    fmt.Println("\n")
-    ascAndDescRecursiveCounter(0, 4)
+	descRecursiveCounter(4)
+	fmt.Println("\n")
+	ascRecursiveCounter(0, 10)
+	fmt.Println("\n")
+	ascAndDescRecursiveCounter(0)
 }
 
 func descRecursiveCounter(number int) {
-    initialNum := 0
+	initialNum := 0
 
-    fmt.Println(number)
+	fmt.Println(number)
 
-    if initialNum != number {
-        descRecursiveCounter(number - 1)
-    }
+	if initialNum != number {
+		descRecursiveCounter(number - 1)
+	}
 }
 
 func ascRecursiveCounter(initialNum int, targetNum int) {
-    fmt.Println(initialNum)
+	fmt.Println(initialNum)
 
-    if targetNum != initialNum {
-        ascRecursiveCounter(initialNum+1, targetNum)
-    }
+	if targetNum != initialNum {
+		ascRecursiveCounter(initialNum+1, targetNum)
+	}
 }
 
-func ascAndDescRecursiveCounter(initialNum int, targetNum int) {
-    fmt.Println(initialNum)
+func ascAndDescRecursiveCounter(initialNum int) {
+	fmt.Println(initialNum)
 
-    if initialNum < targetNum {
-        ascAndDescRecursiveCounter(initialNum+1, targetNum)
-    } else if targetNum >= initialNum && targetNum > 0 {
-        ascAndDescRecursiveCounter(initialNum-1, targetNum-1)
-    }
+	if initialNum < 10 {
+		ascAndDescRecursiveCounter(initialNum+1)
+	} 
+	
+	fmt.Println(initialNum)
 }
