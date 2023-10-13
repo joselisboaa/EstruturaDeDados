@@ -19,6 +19,7 @@ func main() {
 
 	sl.DeleteFirst()
 	sl.DeleteLast()
+	sl.InsertOneInAExistentLinkedList(99)
 	Show(&sl)
 }
 
@@ -36,6 +37,18 @@ func (listPointer *List) Insert(d interface{}) {
 
 		pointer.next = list
 	}
+}
+
+// InsertOneInAExistentLinkedList O(n)
+func (listPointer *List) InsertOneInAExistentLinkedList(d interface{}) {
+	pointer := listPointer.head
+	list := &Node{info: d, next: nil}
+
+	for pointer.next != nil {
+		pointer = pointer.next
+	}
+
+	pointer.next = list
 }
 
 func Show(listPointer *List) {
@@ -56,14 +69,12 @@ func (listPointer *List) DeleteFirst() {
 func (listPointer *List) DeleteLast() {
 	pointer := listPointer.head
 
-	for pointer != nil {
-		if pointer.next == nil {
-			pointer.next = nil
-
-			return
-		}
-
+	for pointer.next.next != nil {
 		pointer = pointer.next
+	}
+
+	if pointer.next.next == nil {
+		pointer.next = nil
 	}
 }
 
