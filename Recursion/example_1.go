@@ -4,9 +4,9 @@ import "fmt"
 
 func main() {
 	descRecursiveCounter(4)
-	fmt.Println("\n")
+	fmt.Print("\n")
 	ascRecursiveCounter(0)
-	fmt.Println("\n")
+	fmt.Print("\n")
 	ascAndDescRecursiveCounter(0)
 }
 
