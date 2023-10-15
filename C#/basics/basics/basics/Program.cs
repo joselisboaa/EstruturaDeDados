@@ -4,14 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_Program { 
-    
+namespace CS_Program {
+    public class ArraySorted
+    {
+        private List<int> list = new List<int>();
+
+        public void populateList()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                list.Add(i);
+            }
+        }
+
+        public List<int> getList() { return list; }
+
+        public int[] toArray() { return list.ToArray(); }
+    }
+
     class ListSearching
     {
         static void Main(string[] args)
         {
-            int[] list = { 1, 2, 3, 4, 5, 6, 7, 8 };
-            int targetNum = 8;
+            ArraySorted listInstance = new ArraySorted();
+            listInstance.populateList();
+
+            int[] list = listInstance.getList().ToArray();
+            int rand = new Random().Next(1, 10);
+
+            int targetNum = rand;
             int targetIndex = BinarySearch(list, targetNum);
 
             Console.WriteLine("The index of list item is: " + targetIndex);
@@ -22,9 +43,11 @@ namespace CS_Program {
             int biggerIndex = list.Length - 1;
             int lowestIndex = 0;
 
-            for (int i = 0; i < list.Length; i++)
+            while (lowestIndex <= biggerIndex)
             {
-               int midIndex = (biggerIndex + lowestIndex) / 2;
+               int midIndex = (lowestIndex + biggerIndex) / 2;
+
+                Console.WriteLine(midIndex);
 
                if (list[midIndex] == targetNum)
                {
@@ -33,12 +56,12 @@ namespace CS_Program {
 
                if (list[midIndex] > targetNum)
                {
-                   biggerIndex -= midIndex; 
+                   biggerIndex = midIndex - 1; 
                }
 
                if (list[midIndex] < targetNum)
                {
-                   lowestIndex += midIndex;
+                   lowestIndex = midIndex + 1;
                }
             }
             

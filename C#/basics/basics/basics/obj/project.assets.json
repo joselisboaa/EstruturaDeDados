@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DAVI\\Desktop\\Studyspace\\C#Lang\\basics\\basics\\basics\\basics.csproj",
+      "projectUniqueName": "C:\\Users\\DAVI\\Desktop\\Studyspace\\DataStructure\\C#\\basics\\basics\\basics\\basics.csproj",
       "projectName": "basics",
-      "projectPath": "C:\\Users\\DAVI\\Desktop\\Studyspace\\C#Lang\\basics\\basics\\basics\\basics.csproj",
+      "projectPath": "C:\\Users\\DAVI\\Desktop\\Studyspace\\DataStructure\\C#\\basics\\basics\\basics\\basics.csproj",
       "packagesPath": "C:\\Users\\DAVI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DAVI\\Desktop\\Studyspace\\C#Lang\\basics\\basics\\basics\\obj\\",
+      "outputPath": "C:\\Users\\DAVI\\Desktop\\Studyspace\\DataStructure\\C#\\basics\\basics\\basics\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DAVI\\AppData\\Roaming\\NuGet\\NuGet.Config",
