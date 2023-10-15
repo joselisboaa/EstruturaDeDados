@@ -1,0 +1,14 @@
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\bin\Debug\net6.0\basics.exe
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\bin\Debug\net6.0\basics.deps.json
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\bin\Debug\net6.0\basics.runtimeconfig.json
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\bin\Debug\net6.0\basics.dll
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\bin\Debug\net6.0\basics.pdb
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\basics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\basics.AssemblyInfoInputs.cache
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\basics.AssemblyInfo.cs
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\basics.csproj.CoreCompileInputs.cache
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\basics.dll
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\refint\basics.dll
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\basics.pdb
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\basics.genruntimeconfig.cache
+C:\Users\DAVI\Desktop\Studyspace\C#Lang\basics\basics\basics\obj\Debug\net6.0\ref\basics.dll
